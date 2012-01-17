@@ -1,5 +1,5 @@
 {
-  "name": "yamlpromt",
+  "name": "yamlprompt",
   "description": "A prompt that asks for yaml input",
   "author": "Paul Vorbach <paul@vorb.de> (http://vorb.de/)",
   "tags": [
@@ -16,6 +16,9 @@
     "url": "https://github.com/pvorb/node-yamlprompt/issues"
   },
   "main": "./yamlprompt.js",
+  "bin": {
+    "yamlprompt": "./bin/yamlprompt.js"
+  },
   "engines": {
     "node": ">=0.6.0"
   },
