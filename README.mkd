@@ -9,6 +9,7 @@ A prompt that asks for yaml input.
 ## Usage
 
 `test.js`:
+
 ```js
 var yamlprompt = require("yamlprompt");
 
