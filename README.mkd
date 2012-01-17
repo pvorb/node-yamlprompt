@@ -1,0 +1,50 @@
+# reg
+
+A prompt that asks for yaml input.
+
+## Installation
+
+`npm install yamlprompt` or `npm install -g yamlprompt`
+
+## Usage
+
+`test.js`:
+```js
+var yamlprompt = require("yamlprompt");
+
+yamlprompt('> ', function (err, obj) {
+  if (err)
+    throw err;
+
+  // print the parsed yaml document
+  console.log(obj);
+});
+```
+
+This will give you a prompt, where you can type in yaml and it will print the
+corresponding JS object. Stop parsing input by typing `...`.
+
+```
+$ node test.js
+> key: value,
+> array: [ some, values, in, an, array ]
+> array2:
+>   - 1
+>   - 2
+> indentation: |
+>   indented
+> ...
+{ key: 'value',
+  array: [ 'some', 'values', 'in', 'an', 'array' ],
+  array2: [ 1, 2 ],
+  indentation: 'indented' }
+```
+
+## Bugs and Issues
+
+If you encounter any bugs or issues, feel free to open an issue at
+[github](//github.com/pvorb/node-yamlprompt/issues).
+
+## License
+
+The [MIT license](http://vorb.de/license/mit.html).

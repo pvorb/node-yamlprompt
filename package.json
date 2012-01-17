@@ -1,0 +1,28 @@
+{
+  "name": "yamlpromt",
+  "description": "A prompt that asks for yaml input",
+    "author": "Paul Vorbach <paul@vorb.de> (http://vorb.de/)",
+  "tags": [ "cli", "readline", "yaml" ],
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pvorb/node-yamlprompt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pvorb/node-yamlprompt/issues"
+  },
+  "main": "./yamlprompt.js",
+  "engines": {
+    "node": ">=0.6.0"
+  },
+  "dependencies": {
+    "yamlparser": ">=0.0.2"
+  },
+  "devDependencies": {},
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://vorb.de/license/mit.html"
+    }
+  ]
+}
