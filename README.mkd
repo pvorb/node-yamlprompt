@@ -64,6 +64,12 @@ $ yamlprompt > output.json
 > ...
 ```
 
+You can also pass one file to the prompt to let it act like a conversion tool.
+
+```
+$ yamlprompt test.yml > output.json
+```
+
 ## Bugs and Issues
 
 If you encounter any bugs or issues, feel free to open an issue at
