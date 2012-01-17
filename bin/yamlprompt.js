@@ -11,7 +11,7 @@ yamlprompt(rl, function (err, obj) {
   if (err)
     return console.error(err);
   try {
-    console.log(JSON.stringify(obj, null, '\t'));
+    console.log(JSON.stringify(obj, null, '  '));
   } catch (err) {
     return console.error(err);
   }

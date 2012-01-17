@@ -44,6 +44,26 @@ $ node test.js
   indentation: 'indented' }
 ```
 
+There is also a binary that can be used from the command line. It converts the
+YAML input to JSON.
+
+```
+$ yamlprompt
+> key: value
+> ...
+{
+  "key": "value"
+}
+```
+
+You can redirect it's output to a file.
+
+```
+$ yamlprompt > output.json
+> key: value
+> ...
+```
+
 ## Bugs and Issues
 
 If you encounter any bugs or issues, feel free to open an issue at
