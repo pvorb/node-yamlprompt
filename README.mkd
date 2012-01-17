@@ -1,4 +1,4 @@
-# reg
+# yamlprompt
 
 A prompt that asks for yaml input.
 
